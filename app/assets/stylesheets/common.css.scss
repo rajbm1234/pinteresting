@@ -3,19 +3,36 @@
 $body-bg                      : #ecf0f1;
 $font-family-sans-serif       : 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-height                : 45px;
-$navbar-default-bg            : white;
-$navbar-default-brand-color   : #c0392b;
-$brand-primary                : #c0392b;
+$navbar-default-bg            : maroon;
+$navbar-default-brand-color   : #fff;
+$brand-primary                : maroon;
 $jumbotron-bg                 : white;
 
 @import 'bootstrap';
 
 .center {
-     text-align: center;
+    text-align: center;
 }
-
 .navbar-brand {
-     font-weight: bold;
+    font-weight: bold;
 }
 @import 'bootstrap';
+
+.navbar-default .navbar-nav > li > a {
+	color : #fff;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color:#fff;
+}
+.jumbotron h3 strong {
+    color: darkorange;
+}
+.btn#sign_in  {
+    color: maroon;
+}
+.btn#sign_up, .btn#sign_in {
+	border-radius: 0px !important;
+	border-color: maroon;
+}
 

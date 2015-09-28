@@ -6,7 +6,8 @@ $navbar-height                : 45px;
 $navbar-default-bg            : maroon;
 $navbar-default-brand-color   : #fff;
 $brand-primary                : maroon;
-$jumbotron-bg                 : white;
+$jumbotron-bg                 : #070716;
+$jumbotron-color              : #fff;
 
 @import 'bootstrap';
 
@@ -30,8 +31,11 @@ $jumbotron-bg                 : white;
 }
 .btn#sign_in  {
     color: maroon;
+    background: burlywood;
+    border-color: burlywood;
+    border-radius: 0px !important;
 }
-.btn#sign_up, .btn#sign_in {
+.btn#sign_up {
 	border-radius: 0px !important;
 	border-color: maroon;
 }
